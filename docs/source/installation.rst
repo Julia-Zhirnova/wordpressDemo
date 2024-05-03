@@ -17,11 +17,15 @@ XAMPP
    :alt: выбор xampp
    :width: 100
 
-Далее запускаем команды в терминале от root (для переключения ввести su). Открываем терминал в папке, куда бл скачан файл xampp-linux-x64-8.2.12-0-installer.run
+Далее вводим команды в терминале от root (для переключения ввести su). Открываем терминал в папке, куда был скачан файл xampp-linux-x64-8.2.12-0-installer.run. Передаем права для запуска файла и запускаем его
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ chmod +x xampp-linux-x64-8.2.12-0-installer.run
+   $ ./xampp-linux-x64-8.2.12-0-installer.run
 
+.. image:: /_static/установка.png
+   :alt: установка
+   :width: 100
 WordPress
 ----------------
 
