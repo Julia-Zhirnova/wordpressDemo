@@ -1,18 +1,23 @@
-Usage
+Установка
 =====
 
 .. _installation:
 
-Installation
+XAMPP
 ------------
 
-To use Lumache, first install it using pip:
+Кроссплатформенная сборка локального веб-сервера, содержащая:
+- Apache;
+- MariaDB;
+- интерпретатор скриптов PHP
+
+Скачиваем XAMPP for Linux с официального сайта https://www.apachefriends.org/
 
 .. code-block:: console
 
    (.venv) $ pip install lumache
 
-Creating recipes
+WordPress
 ----------------
 
 To retrieve a list of random ingredients,
