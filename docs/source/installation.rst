@@ -12,7 +12,8 @@ XAMPP
 - интерпретатор скриптов PHP
 
 Скачиваем XAMPP for Linux с официального сайта https://www.apachefriends.org/
-.. image:: /_static/выбор xampp.png
+
+.. image:: /_static/выбор_xampp.png
    :alt: выбор xampp
    :width: 100
 .. code-block:: console
