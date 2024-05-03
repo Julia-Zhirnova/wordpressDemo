@@ -1,10 +1,12 @@
 # Configuration file for the Sphinx documentation builder.
-
+# Exclude base script files (the theme uses its own)
+from sphinx.builders.html import StandaloneHTMLBuilder
+StandaloneHTMLBuilder.script_files = []
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Сайт на WordPress'
+copyright = '2024, JV&LN'
+author = 'JV&LN'
 
 release = '0.1'
 version = '0.1.0'
@@ -28,7 +30,13 @@ intersphinx_disabled_domains = ['std']
 templates_path = ['_templates']
 
 # -- Options for HTML output
+html_static_path = ['_static']
 
+StandaloneHTMLBuilder.supported_image_types = [
+'image/svg+xml',
+'image/gif',
+'image/png',
+'image/jpeg']
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
