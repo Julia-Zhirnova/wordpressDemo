@@ -39,11 +39,18 @@ XAMPP
 
    $ /opt/lampp/lampp start
    $ dnf install libxcrypt-compat
+   $ dnf install libnsl
+   $ /opt/lampp/lampp start
 
-.. image:: /_static/установка.png
-   :alt: установка
+.. image:: /_static/библиотеки.png
+   :alt: библиотеки
    :width: 700
-
+.. image:: /_static/библиотеки2.png
+   :alt: библиотеки
+   :width: 700
+.. image:: /_static/xampp_запущен.png
+   :alt: библиотеки
+   :width: 700
 WordPress
 ----------------
 
