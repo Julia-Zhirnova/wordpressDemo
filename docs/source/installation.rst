@@ -16,6 +16,8 @@ XAMPP
 .. image:: /_static/выбор_xampp.png
    :alt: выбор xampp
    :width: 100
+
+Далее запускаем команды в терминале от root (для переключения ввести su). Открываем терминал в папке, куда бл скачан файл xampp-linux-x64-8.2.12-0-installer.run
 .. code-block:: console
 
    (.venv) $ pip install lumache
