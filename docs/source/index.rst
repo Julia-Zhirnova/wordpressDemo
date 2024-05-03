@@ -1,5 +1,8 @@
-Welcome to Lumache's documentation!
-===================================
+.. image:: /_static/logo.gif
+   :alt: Гифка
+   :width: 100
+РАЗРАБОТКА ФУНКЦИЙ ИНФОРМАЦИОННОЙ СИСТЕМЫ В WORDPRESS
+=====================================================
 
 **Lumache** (/lu'make/) is a Python library for cooks and food lovers
 that creates recipes mixing random ingredients.
