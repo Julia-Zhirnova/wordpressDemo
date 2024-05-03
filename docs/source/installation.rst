@@ -28,6 +28,10 @@ XAMPP
    :alt: установка
    :width: 700
 
+.. image:: /_static/xampp.png
+   :alt: xampp
+   :width: 700
+
 WordPress
 ----------------
 
