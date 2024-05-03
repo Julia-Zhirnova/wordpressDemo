@@ -28,8 +28,20 @@ XAMPP
    :alt: установка
    :width: 700
 
+Выбираем далее и не запускаем xampp
+
 .. image:: /_static/xampp.png
    :alt: xampp
+   :width: 700
+
+Переходим в папку, где установлен xampp и запускаем его 
+.. code-block:: console
+
+   $ /opt/lampp/lampp start
+   $ dnf install libxcrypt-compat
+
+.. image:: /_static/установка.png
+   :alt: установка
    :width: 700
 
 WordPress
