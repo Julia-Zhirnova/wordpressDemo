@@ -80,6 +80,12 @@ WordPress
    :alt: распаковка
    :width: 700
 
+Вбиваем localhost в браузер и нас встречает окно приветствия
+
+.. image:: /_static/приветствие.png
+   :alt: приветствие
+   :width: 700
+
 .. autofunction:: lumache.get_random_ingredients
 
 The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
