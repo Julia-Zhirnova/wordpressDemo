@@ -45,7 +45,7 @@ XAMPP
 .. image:: /_static/библиотеки.png
    :alt: библиотеки
    :width: 700
-.. image:: /_static/библиотеки2.png
+.. image:: /_static/библиотеки_2.png
    :alt: библиотеки
    :width: 700
 .. image:: /_static/xampp_запущен.png
