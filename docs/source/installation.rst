@@ -119,3 +119,14 @@ WordPress
 .. image:: /_static/главное_окно.png
    :alt: главное_окно
    :width: 700
+
+Чтобы был доступ к редактированию файлов на ПК, передаем права на папку daemon
+
+.. code-block:: console
+
+   $ chmod -R 777 htdocs/
+   $ chown -R daemon:daemon htdocs/
+
+.. image:: /_static/ftp.png
+   :alt: ftp
+   :width: 700
