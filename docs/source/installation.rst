@@ -62,12 +62,19 @@ WordPress
    :alt: скачать_wordoress
    :width: 700
 
+Удаляем папку htdocs с ее содержимым и создаем заново 
+
+.. code-block:: console
+
+   $ rm -fr htdocs/
+   $ mkdir htdocs/
+
 Необходимо распаковать файл и переместить содержимое папки в /opt/lampp/htdocs/
 
 .. code-block:: console
 
    $ unzip wordpress-6.5.2-ru_RU.zip
-   $ cp -a wordpress /opt/lampp/htdocs/
+   $ cp -a /home/rexam/Загрузки/wordpress/. /opt/lampp/htdocs/
 
 .. image:: /_static/распаковка.png
    :alt: распаковка
