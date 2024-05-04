@@ -86,17 +86,8 @@ WordPress
    :alt: приветствие
    :width: 700
 
-.. autofunction:: lumache.get_random_ingredients
+Далее создаем базу данных wp в http://localhost/phpmyadmin/
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+.. image:: /_static/phpmyadmin.png
+   :alt: phpmyadmin
+   :width: 700
