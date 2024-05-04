@@ -35,6 +35,7 @@ XAMPP
    :width: 700
 
 Переходим в папку, где установлен xampp и запускаем его 
+
 .. code-block:: console
 
    $ /opt/lampp/lampp start
