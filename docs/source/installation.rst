@@ -52,11 +52,26 @@ XAMPP
 .. image:: /_static/xampp_запущен.png
    :alt: библиотеки
    :width: 700
-WordPress
-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+WordPress
+----------
+
+Для установки необходимо скачать с сайта https://ru.wordpress.org/download/ 
+
+.. image:: /_static/скачать_wordoress.png
+   :alt: скачать_wordoress
+   :width: 700
+
+Необходимо распаковать файл и переместить содержимое папки в /opt/lampp/htdocs/
+
+.. code-block:: console
+
+   $ unzip wordpress-6.5.2-ru_RU.zip
+   $ cp -a wordpress /opt/lampp/htdocs/
+
+.. image:: /_static/распаковка.png
+   :alt: распаковка
+   :width: 700
 
 .. autofunction:: lumache.get_random_ingredients
 
