@@ -91,3 +91,19 @@ WordPress
 .. image:: /_static/phpmyadmin.png
    :alt: phpmyadmin
    :width: 700
+
+По умолчанию логин на phpmyadmin root, пароля нет
+
+.. image:: /_static/подключениеБД.png
+   :alt: подключениеБД
+   :width: 700
+
+И создаем файл с настройками
+
+.. code-block:: console
+
+   $ pluma wp-config.php
+
+.. image:: /_static/файлнастроек.png
+   :alt: файлнастроек
+   :width: 700
