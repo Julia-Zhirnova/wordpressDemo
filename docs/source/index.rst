@@ -12,4 +12,4 @@ Contents
 .. toctree::
 
    installation
-   api
+   create
