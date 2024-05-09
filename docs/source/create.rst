@@ -7,8 +7,4 @@
    :alt: форма_входа
    :width: 700
 
-Д
-.. autosummary::
-   :toctree: generated
 
-   lumache
