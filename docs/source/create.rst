@@ -1,5 +1,5 @@
-API
-===
+Создание сайта
+===============
 
 .. autosummary::
    :toctree: generated
